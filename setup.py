@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='pickler',
+    name='pickler2',
     version='1.0.0',
     license='bsd-3-clause',
     url='https://github.com/christian-oreilly/pickler2.git',

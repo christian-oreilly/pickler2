@@ -5,6 +5,7 @@ setup(
     version='1.0.0',
     license='bsd-3-clause',
     url='https://github.com/christian-oreilly/pickler2.git',
+    download_url="https://github.com/christian-oreilly/pickler2/archive/v1.0.0.tar.gz",
     author="Christian O'Reilly",
     author_email='christian.oreilly@gmail.com',
     description="Small package allowing to decorate a function so that it automatically pickle its results" +

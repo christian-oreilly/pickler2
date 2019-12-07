@@ -29,10 +29,10 @@ def load_config():
     return {}
 
 
-def pickled(file_name, run=None, load=None, project_name=None):
+def pickled(file_name, run=None, project_name=None):
     def pickler_decorator(func):
         @functools.wraps(func)
-        def wrapper(file_name, *args, run=run, load=load, project_name=project_name, **kwargs):
+        def wrapper(file_name, run=run, project_name=project_name, *args, **kwargs):
 
             if project_name is not None:
                 config = load_config()

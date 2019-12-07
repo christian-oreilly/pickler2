@@ -11,7 +11,7 @@ setup(
     description="Small package allowing to decorate a function so that it automatically pickle its results" +
                 " and load it the next time it is called.",
     packages=find_packages(),    
-    install_requires=["numpy"],
+    install_requires=["numpy", "setuptools"],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',  # Define that your audience are developers

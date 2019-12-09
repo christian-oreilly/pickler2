@@ -44,7 +44,7 @@ Alternatively, the project pickling path can be registered as follow
 
     from pickler2 import register_project_path
 
-    register_project_path("/some/long/path/", "my_project")
+    register_project_path("my_project", "/some/long/path/")
 
 and then use provide the project name to the constructor:
 

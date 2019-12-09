@@ -60,7 +60,7 @@ on different systems with differents path, as long as the corresponding path hav
 in their respective configuration path.
 
 
-Why the 2 in Piclker2?
+Why the 2 in Pickler2?
 ===================================
 Because Pickler was already taken on PyPi!
 
